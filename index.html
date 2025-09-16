@@ -20,42 +20,44 @@
         <nav class="nav">
           <a class="brand" href="/">meYQY</a>
           <div class="spacer"></div>
-          <a class="nav-link" href="/about.html">About</a>
-          <a class="nav-link" href="/work.html">Work</a>
-          <a class="nav-link" href="/writing/">Writing</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#work">Work</a>
+          <a class="nav-link" href="#writing">Writing</a>
+          <a class="nav-link" href="#music">Music</a>
           <a class="nav-link" href="#contact">Contact</a>
         </nav>
       </div>
     </header>
 
     <main class="container">
-      <section class="hero">
-        <h1>Hi, I’m <span class="accent">meYQY</span></h1>
-        <p class="subtitle">2026 Fall applicant. Founding Engineer at a ~$20M startup. I build AI agents and turn ideas into products.</p>
-        <div class="actions">
-          <a class="button primary" href="https://github.com/meYQY" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="button" href="/work.html">Work</a>
-          <a class="button" href="/writing/">Writing</a>
-          <a class="button" href="/about.html">About</a>
-        </div>
+      <section id="about" class="hero">
+        <h1>meYQY</h1>
+        <p class="subtitle">Software engineer. Founding Engineer at a startup. I build AI agents and ship products.</p>
       </section>
 
-      <section class="card">
-        <h2>Highlights</h2>
+      <section id="work" class="card">
+        <h2>Work</h2>
         <ul class="links">
-          <li><a href="/work.html#founding-engineer">Founding Engineer · VC-backed</a> — Led core MVP; enabled seed raise (~$20M valuation).</li>
-          <li><a href="/work.html#ai-startup">Founder · AI Agent</a> — Vertical agent product; targeting ~$2k MRR.</li>
-          <li><a href="/work.html#miracleplus">Intern · MiraclePlus (YC China)</a> — Top-bucket; strong supplemental letter available.</li>
-          <li><a href="/work.html#tsinghua-ra">Research Assistant · Tsinghua</a> — Co-author (5th); SCI submission planned.</li>
+          <li>Founding Engineer · VC-backed startup — led core MVP; enabled seed raise (~$20M valuation).</li>
+          <li>Founder · Vertical AI agent — product to ~$2k MRR target.</li>
+          <li>Intern · MiraclePlus (YC China) — top bucket; strong supplemental letter.</li>
+          <li>Research Assistant · Tsinghua SEM — co-author (5th), SCI submission planned.</li>
+        </ul>
+        <p><a href="/work.html">More details</a></p>
+      </section>
+
+      <section id="writing" class="card">
+        <h2>Writing</h2>
+        <ul class="links">
+          <li><a href="/writing/gap-year.html">Why a Gap Year?</a></li>
+          <li><a href="/writing/from-0-to-mvp.html">From 0 to MVP</a></li>
+          <li><a href="/writing/">All posts →</a></li>
         </ul>
       </section>
 
-      <section class="card">
-        <h2>Recent Writing</h2>
-        <ul class="links">
-          <li><a href="/writing/gap-year.html">Why a Gap Year?</a> — A simple framework for a deliberate gap year.</li>
-          <li><a href="/writing/from-0-to-mvp.html">From 0 to MVP</a> — Three principles for shipping early products.</li>
-        </ul>
+      <section id="music" class="card">
+        <h2>Music</h2>
+        <p>Electronic music / DJ — live sets in Beijing’s underground clubs. Arts portfolio in progress.</p>
       </section>
 
       <section id="contact" class="card">
@@ -69,7 +71,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>© <span id="year"></span> meYQY · 构建于 GitHub Pages</p>
+        <p>© <span id="year"></span> meYQY</p>
       </div>
     </footer>
 
