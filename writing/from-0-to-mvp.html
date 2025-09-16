@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>From 0 to MVP · meYQY</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <style>
+      .prose { max-width: 72ch; margin: 0 auto; }
+      .prose h1, .prose h2, .prose h3 { margin: 1.6em 0 .6em; }
+      .prose p { margin: .9em 0; }
+      .prose ul { padding-left: 1.2em; }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav">
+          <a class="brand" href="/">meYQY</a>
+          <div class="spacer"></div>
+          <a class="nav-link" href="/writing/">Back to Writing</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container prose">
+      <h1>From 0 to MVP</h1>
+      <p class="subtitle">Sample template — replace with your own principles and examples.</p>
+      <h2>Principles</h2>
+      <ul>
+        <li>Shortest path to value: define one core user outcome and ship that.</li>
+        <li>Make uncertainty visible: write assumptions, add basic metrics, review weekly.</li>
+        <li>Reduce complexity aggressively: narrow scope, cut features, improve defaults.</li>
+      </ul>
+      <h2>Cadence</h2>
+      <ul>
+        <li>Daily: one shippable change.</li>
+        <li>Weekly: a demo (even if rough) and a note.</li>
+        <li>Biweekly: reset plan based on data + conversations.</li>
+      </ul>
+    </main>
+    <footer class="site-footer"><div class="container">© <span id="year"></span> meYQY</div></footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+  </html>
+
